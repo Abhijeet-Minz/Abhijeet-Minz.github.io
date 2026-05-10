@@ -98,6 +98,18 @@ body {
     background: #c0392b;
 }
 
+.btn-primary {
+    background: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background: #2980ca;
+}
+
+.cv-download {
+    margin: 2rem 0;
+}
+
 /* About Section */
 .about {
     padding: 80px 20px;
