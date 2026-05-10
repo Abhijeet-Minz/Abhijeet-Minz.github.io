@@ -14,7 +14,11 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#conferences">Conferences</a></li>
+                <li><a href="#teaching">Teaching</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -33,17 +37,104 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a researcher at the University of Edinburgh specializing in computational fluid dynamics, divergence-free Navier-Stokes solvers, and numerical methods for PDEs. I'm passionate about scientific computing and open-source development.</p>
+            <p><strong>PhD Candidate in Applied Mathematics</strong> at the University of Edinburgh, specializing in geophysical fluid dynamics. My expertise includes Lagrangian averaging within the Generalised Lagrangian Mean (GLM) framework, geometric formulation of fluid models, asymptotic analysis, wave–mean flow interaction, and computational methods using Fourier pseudo-spectral solvers.</p>
+            
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:Abhijeet.minz@ed.ac.uk">Abhijeet.minz@ed.ac.uk</a></p>
+                <p><strong>Phone:</strong> +44 7867 074952</p>
+            </div>
+
+            <h3>Research Interests</h3>
+            <p>Geophysical fluid dynamics, climate and ocean modelling, computational mathematics</p>
+
             <div class="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>Numerical Methods</li>
-                    <li>Fluid Dynamics</li>
-                    <li>Git & GitHub</li>
-                    <li>Jupyter Notebooks</li>
-                    <li>Scientific Computing (NumPy, SciPy)</li>
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programming</h4>
+                        <ul>
+                            <li>Python (NumPy, SciPy, Matplotlib)</li>
+                            <li>MATLAB (basic)</li>
+                            <li>Mathematica</li>
+                            <li>C++, C, Java, SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Methods & Tools</h4>
+                        <ul>
+                            <li>FFT-based pseudo-spectral methods</li>
+                            <li>Numerical PDE solvers</li>
+                            <li>Finite Element Methods (FEM)</li>
+                            <li>Finite Difference Methods (FDM)</li>
+                            <li>LaTeX, Git, Linux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <h3>PhD in Applied Mathematics</h3>
+                <p class="institution">Mathematical Modelling, Analysis and Computation (MAC-MIGS CDT)</p>
+                <p class="details">University of Edinburgh | Sept 2022 – Sept 2026 (expected)</p>
+                <p><strong>Thesis:</strong> Lagrangian averaging with exponential filters</p>
+                <p><strong>Supervisors:</strong> Jacques Vanneste & Lois Baker</p>
+                <ul class="coursework">
+                    <li>Geometric Fluid Dynamics (variational principles, conservation laws)</li>
+                    <li>Numerical Methods for Partial Differential Equations</li>
+                    <li>Finite Element Methods (weak formulations, Galerkin methods)</li>
+                    <li>Asymptotic Methods and Perturbation Theory</li>
+                    <li>Differential Topology</li>
                 </ul>
+            </div>
+
+            <div class="education-item">
+                <h3>MSc in Mathematics (Distinction)</h3>
+                <p class="institution">Bangalore University, India</p>
+                <p class="details">2018 – 2020</p>
+                <p><strong>Dissertation:</strong> Basset Memory Integral - Analysis of the Maxey–Riley equation for particle motion in fluid flow</p>
+            </div>
+
+            <div class="education-item">
+                <h3>BSc in Physics, Maths and Computer Science (Distinction)</h3>
+                <p class="institution">Bangalore University, India</p>
+                <p class="details">2015 – 2018</p>
+                <p><strong>Projects:</strong> Maxwell's equations study; DBMS user-interface using Visual Studio, Visual Basic, and MySQL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2>Publications & Research</h2>
+            
+            <div class="publication-item">
+                <h3>Efficient Lagrangian averaging with exponential filters</h3>
+                <p><strong>Minz, A., Baker, L. E., Kafiabad, H. A., & Vanneste, J.</strong> (2025)</p>
+                <p class="venue">Physical Review Fluids, 10, 074902</p>
+                <p><strong>DOI:</strong> 10.1103/4d4f-38wx</p>
+                <a href="https://doi.org/10.1103/4d4f-38wx" target="_blank">Read Publication</a>
+            </div>
+
+            <div class="publication-item">
+                <h3>Volume-preserving Lagrangian averaging using polar factorisation</h3>
+                <p><strong>Minz, A., Baker, L. E., & Vanneste, J.</strong></p>
+                <p class="venue">Manuscript in preparation (estimated May 2026)</p>
+                <p>To be submitted to Physical Review Fluids</p>
+            </div>
+
+            <div class="publication-item">
+                <h3>Code and data for "Efficient Lagrangian averaging with exponential filters"</h3>
+                <p><strong>Minz, A., Baker, L., Kafiabad, H., & Vanneste, J.</strong> (2025) - v1.0.1</p>
+                <p><strong>DOI:</strong> 10.5281/zenodo.15213015</p>
+                <a href="https://zenodo.org/records/15213015" target="_blank">View on Zenodo</a>
             </div>
         </div>
     </section>
@@ -51,23 +142,88 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2>My Projects</h2>
+            <h2>Research Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>Divergence-Free DNS Solver</h3>
-                    <p>Implemented divergence-free methods for Navier-Stokes equations with volume-preserving Lagrangian mean techniques.</p>
-                    <a href="https://github.com/Abhijeet-Minz/Volume_preserving-Lagrangian-mean" target="_blank">View on GitHub</a>
+                    <h3>Lagrangian Averaging in GLM Framework</h3>
+                    <p>Developed models for Lagrangian averaging with exponential filters and volume-preserving techniques. Implemented FFT-based pseudo-spectral solvers for rotating shallow water equations.</p>
                 </div>
                 <div class="project-card">
-                    <h3>Central Lagrangian PDEs</h3>
-                    <p>Core implementations of Lagrangian formulations for central difference schemes in computational fluid dynamics.</p>
-                    <a href="https://github.com/Abhijeet-Minz/Volume_preserving-Lagrangian-mean" target="_blank">View on GitHub</a>
+                    <h3>Spatio-temporal Modelling</h3>
+                    <p>Industrial project with James Hutton Institute on spatio-temporal modelling of aphid–parasitoid dynamics for ecological prediction.</p>
                 </div>
                 <div class="project-card">
-                    <h3>Shallow Water Equations Solver</h3>
-                    <p>RK45 integration scheme for instantaneous shallow water equations with GLM and solenoidal constructions.</p>
-                    <a href="https://github.com/Abhijeet-Minz/Volume_preserving-Lagrangian-mean" target="_blank">View on GitHub</a>
+                    <h3>Data Assimilation & Inverse Problems</h3>
+                    <p>Taster project in training on data assimilation techniques and inverse problem methodologies.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conferences Section -->
+    <section id="conferences" class="conferences">
+        <div class="container">
+            <h2>Conferences & Talks</h2>
+            <div class="conference-list">
+                <div class="conference-item">
+                    <h3>Ocean Science Meeting, Glasgow</h3>
+                    <p><strong>Feb 2025</strong> | Poster: "Volume-preserving Lagrangian averaging using polar factorisation"</p>
+                </div>
+                <div class="conference-item">
+                    <h3>ICTW2025, Durham University</h3>
+                    <p><strong>July 2025</strong> | Talk: "Lagrangian averaging"</p>
+                </div>
+                <div class="conference-item">
+                    <h3>North-East GFD Meeting, Edinburgh</h3>
+                    <p><strong>June 2025</strong> | Talk: "Exponential Lagrangian averaging"</p>
+                </div>
+                <div class="conference-item">
+                    <h3>Scottish Fluid Mechanics Meeting, Glasgow</h3>
+                    <p><strong>May 2025</strong> | Talk: "Exponential Lagrangian averaging"</p>
+                </div>
+                <div class="conference-item">
+                    <h3>North-East GFD Meeting, Edinburgh</h3>
+                    <p><strong>June 2024</strong> | Talk: "Lagrangian averaging of tensor fields"</p>
+                </div>
+                <div class="conference-item">
+                    <h3>MAC-MIGS / Utrecht / CWI Workshop</h3>
+                    <p><strong>May 2024</strong> | Talk: "Lagrangian averaging of scalar fields"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section id="teaching" class="teaching">
+        <div class="container">
+            <h2>Teaching Experience</h2>
+            
+            <div class="teaching-item">
+                <h3>Tutor, University of Edinburgh</h3>
+                <ul>
+                    <li>
+                        <strong>Introduction to Mathematics at University</strong> (Sept 2025 – Nov 2025)
+                        <p>Taught mathematical reasoning, proof techniques, and foundational concepts</p>
+                    </li>
+                    <li>
+                        <strong>Numerical ODEs</strong> (Jan 2025 – March 2025)
+                        <p>Focused on implementing numerical solvers for differential equations in Python</p>
+                    </li>
+                    <li>
+                        <strong>Introduction to Linear Algebra</strong> (Sept 2023 – Nov 2023)
+                        <p>Led weekly tutorials for 10–15 students, facilitating problem-solving and discussion</p>
+                    </li>
+                    <li>
+                        <strong>Honours Differential Equations</strong> (Sept 2023 – Nov 2023)
+                        <p>Supported development of analytical techniques and exam preparation</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="teaching-item">
+                <h3>Mathematics Tutor (Outreach)</h3>
+                <p><strong>Mount Fort School, India</strong> (2021)</p>
+                <p>Provided mathematics instruction in an outreach program</p>
             </div>
         </div>
     </section>
