@@ -8,6 +8,14 @@
     <title>Animations - Abhijeet Minz</title>
 
     <link rel="stylesheet" href="style.css">
+    <script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+    };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -49,8 +57,14 @@
                     Your browser does not support the video element.
                 </video>
 
+               
                 <p>
-                    Animation showing the evolution of the flow.
+                    Vorticity in a simulation of a two-dimensional incompressible fluid.
+                    The panels show, respectively: instantaneous vorticity $\zeta$,
+                    GLM mean vorticity $\bar{\zeta}$, volume-preserving mean vorticity
+                    $\bar{\zeta}_{\dagger}$, and the mean obtained using the
+                    divergence-free projection of the GLM mean velocity.
+                    An exponential average with $\alpha = 0.5$ is used.
                 </p>
 
             </div>
@@ -65,9 +79,14 @@
                     Your browser does not support the video element.
                 </video>
 
-                <p>
-                    Animation showing the evolution of the flow.
-                </p>
+                
+                    <p>
+                        Vorticity field of the shallow-water simulation: the instantaneous
+                        vorticity $\zeta$ is compared with its bare and volume-preserving
+                        exponential Lagrangian averages $\bar{\zeta}$ and
+                        $\bar{\zeta}_{\dagger}$.
+                    </p>
+            
 
             </div>
 
